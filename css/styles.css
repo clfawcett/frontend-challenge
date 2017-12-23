@@ -99,44 +99,43 @@ p {
 /*--------------- Navigation ---------------*/
 nav {
   background-color: #007BC2;
-  height: 12%;
   margin: 0 auto;
-  padding: 12% 4% 1% 4%;
+  overflow: hidden;
   position: fixed;
-  width: 375px;
+  top: 0;
+  width: 100%;
 
 }
 
-.arrow {
-  display: inline;
+ nav .arrow {
+  display: block;
   float:left;
   font-size: 1.2em;
   margin: 0 auto;
-  width: 5%;
+  padding: 12% 0 5% 4%;
 }
 
-.page-title {
-  display: inline;
+ nav .page-title {
+  display: block;
   float: left;
   margin: 0 auto;
-  text-align: center;
-  width: 88%;
+  padding: 12% 13.5% 5% 13.5%;
 }
 
-.ellipsis {
+nav .ellipsis {
   color: #fff;
-  display: inline;
+  display: block;
   float: left;
   font-size: 1.5em;
   margin: 0 auto;
-  width: 7%;
+  padding: 12% 4% 5% 0;
 }
 
 
 /*--------------- Route list ---------------*/
 
 .route-list {
-  padding-top: 22%;
+  padding-top: 26%;
 }
 
 .route {
@@ -194,5 +193,6 @@ nav {
 }
 
 .na {
+  font-weight: 900;
   padding: 5% 0;
 }
