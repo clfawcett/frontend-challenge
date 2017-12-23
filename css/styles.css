@@ -61,7 +61,7 @@ box-sizing: border-box;
 }
 
 body {
-  background-color: #575757;
+  background-color: #EBEBEB;
   font-family: 'system-ui';
   font-size: 16px;
   font-weight: 400;
@@ -70,11 +70,11 @@ body {
 h1 {
   color: #fff;
   font-size: 1.3em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h2 {
-  font-weight:500;
+  font-weight:600;
   line-height: 1.5em;
 }
 
@@ -99,8 +99,9 @@ p {
 /*--------------- Navigation ---------------*/
 nav {
   background-color: #007BC2;
+  height: 12%;
   margin: 0 auto;
-  padding: 4% 1.5% 1% 1.5%;
+  padding: 12% 4% 1% 4%;
   position: fixed;
   width: 375px;
 
@@ -153,29 +154,24 @@ nav {
   padding: 1% 4%;
 }
 
-
-
-
 .left {
-
   display: inline;
   float: left;
   font-weight: bold;
   margin: 0 auto;
   padding: 4.5% 0;
-  width: 18%;
+  width: 20%;
 }
 
 .center {
-
   display: inline;
   float: left;
   margin: 0 auto;
   padding: 5.1% 0;
-  width: 57%;
+  width: 55%;
 }
-.right {
 
+.right {
   display: inline;
   float: left;
   margin: 0 auto;
