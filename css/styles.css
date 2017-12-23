@@ -65,7 +65,30 @@ body {
   font-family: 'system-ui';
   font-size: 16px;
   font-weight: 400;
-  f
+}
+
+h1 {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight:500;
+  line-height: 1.5em;
+}
+
+.center h2 {
+  color: #007BC2;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.5em;
 }
 
 .container {
@@ -73,44 +96,12 @@ body {
   width: 375px;
 }
 
-
-h1 {
-  color: #fff;
-  font-size: 1.3em;
-}
-
-
-h3 {
-  font-size: 1.6em;
-  font-weight: 900;
-  line-spacing: .8em;
-}
-
-.right h3 {
- font-size: 1.5em;
-}
-
-.out h3{
-  font-size: 1.2em;
-}
-
-.na h3{
-  font-size: 1.5em;
-  padding: 19% 0;
-}
-
-
-
-
 /*--------------- Navigation ---------------*/
 nav {
   background-color: #007BC2;
-  display: inline;
-  float: left;
   margin: 0 auto;
-  padding: 4% 1% 1% 1%;
+  padding: 4% 1.5% 1% 1.5%;
   position: fixed;
-  text-align: center;
   width: 375px;
 
 }
@@ -120,7 +111,6 @@ nav {
   float:left;
   font-size: 1.2em;
   margin: 0 auto;
-  padding-top: 0;
   width: 5%;
 }
 
@@ -129,7 +119,7 @@ nav {
   float: left;
   margin: 0 auto;
   text-align: center;
-  width: 85%;
+  width: 88%;
 }
 
 .ellipsis {
@@ -138,8 +128,7 @@ nav {
   float: left;
   font-size: 1.5em;
   margin: 0 auto;
-  padding: 0;
-  width: 10%;
+  width: 7%;
 }
 
 
@@ -149,54 +138,49 @@ nav {
   padding-top: 22%;
 }
 
-.dir-title {
-  background-color: #EBEBEB;
-  font-family: 'metropolis', arial, sans-serif;
-  padding: 1% 4%;
-}
-
-.direction {
+.route {
   background-color: #fff;
-  display: inline;
-  float: left;
-  margin-bottom: .5%;
+  display: inline-block;
   padding: 0 4%;
   width: 100%;
 }
 
-.direction:hover { background-color: red; }
+.route:hover { background-color: red; }
+
+.dir-title {
+  background-color: #EBEBEB;
+  font-weight: 500;
+  padding: 1% 4%;
+}
+
+
 
 
 .left {
+
   display: inline;
   float: left;
   font-weight: bold;
   margin: 0 auto;
-  padding: 6.1% 0;
-  width: 16%;
+  padding: 4.5% 0;
+  width: 18%;
 }
 
 .center {
-  color: #007BC2;
+
   display: inline;
   float: left;
   margin: 0 auto;
-  padding: 7.5% 2%;
-  width: 59%;
+  padding: 5.1% 0;
+  width: 57%;
 }
 .right {
+
   display: inline;
   float: left;
-  line-height: 1.5em;
   margin: 0 auto;
-  padding: 1.1% 0;
-  text-align: left;
+  padding: 1.4% 0;
   width: 25%;
-}
-
-.right h4 {
-  color: #575757;
-  font-weight: 500;
 }
 
 .out {
@@ -204,11 +188,15 @@ nav {
 }
 
 .minutes {
-  font-size: .7em;
-  font-weight: 500;
+  font-size: 1.4em;
+  font-weight: 900;
 }
 
-.am {
-  font-size: .9em;
-  font-weight: 500;
+.resume {
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+.na {
+  padding: 5% 0;
 }
