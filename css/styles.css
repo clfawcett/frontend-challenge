@@ -135,7 +135,7 @@ nav .ellipsis {
 /*--------------- Route list ---------------*/
 
 .route-list {
-  padding-top: 26%;
+  padding-top: 23.5%;
 }
 
 .route {
@@ -145,10 +145,8 @@ nav .ellipsis {
   width: 100%;
 }
 
-.route:hover { background-color: red; }
-
 .dir-title {
-  background-color: #EBEBEB;
+  background-color: #F2F2F2;
   font-weight: 500;
   padding: 1% 4%;
 }
@@ -193,6 +191,7 @@ nav .ellipsis {
 }
 
 .na {
+	font-size: 1.3em;
   font-weight: 900;
   padding: 5% 0;
 }
