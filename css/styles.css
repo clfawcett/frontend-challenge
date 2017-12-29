@@ -61,7 +61,7 @@ box-sizing: border-box;
 }
 
 body {
-  background-color: #EBEBEB;
+  background-color: #DBDBDB;
   font-family: 'system-ui';
   font-size: 16px;
   font-weight: 400;
@@ -83,7 +83,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.8em;
+	font-size: 1.8em;
   font-weight: 900;
 }
 
@@ -140,7 +140,12 @@ nav .ellipsis {
 /*--------------- Route list ---------------*/
 
 .route-list {
-  padding-top: 29%;
+  padding-top: 110px;
+}
+
+.dir-title {
+  background-color: #F2F2F2;
+  padding: 0 4%;
 }
 
 .route {
@@ -149,12 +154,6 @@ nav .ellipsis {
 	float: left;
   padding: 0 4%;
   width: 100%;
-}
-
-.dir-title {
-  background-color: #F2F2F2;
-  font-weight: 500;
-  padding: 1% 4%;
 }
 
 .left {
