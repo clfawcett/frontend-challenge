@@ -100,47 +100,53 @@ p {
 nav {
   background-color: #007BC2;
   margin: 0 auto;
-  overflow: hidden;
+  padding: 2% 0 0 0;
   position: fixed;
-  top: 0;
   width: 375px;
 
 }
 
- nav .arrow {
-  display: block;
+
+nav .arrow {
+  display: inline;
   float:left;
   font-size: 1.2em;
   margin: 0 auto;
-  padding: 12% 0 5% 4%;
+  padding: 12% 0 6% 4%;
+	width: 10%;
 }
 
  nav .page-title {
-  display: block;
+  display: inline;
   float: left;
   margin: 0 auto;
-  padding: 12% 13.5% 5% 13.5%;
+  padding: 12% 0 6% 0;
+	text-align: center;
+	width: 75%;
+
 }
 
 nav .ellipsis {
   color: #fff;
-  display: block;
+  display: inline;
   float: left;
   font-size: 1.5em;
   margin: 0 auto;
-  padding: 12% 4% 5% 0;
+  padding: 12% 2% 5% 4%;
+	width: 15%;
 }
 
 
 /*--------------- Route list ---------------*/
 
 .route-list {
-  padding-top: 23.5%;
+  padding-top: 29%;
 }
 
 .route {
   background-color: #fff;
-  display: inline-block;
+  display: inline;
+	float: left;
   padding: 0 4%;
   width: 100%;
 }
@@ -194,4 +200,8 @@ nav .ellipsis {
 	font-size: 1.3em;
   font-weight: 900;
   padding: 5% 0;
+}
+
+.line {
+	border-bottom: 1px solid #E2E2E2;
 }
